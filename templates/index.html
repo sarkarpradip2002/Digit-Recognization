@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="whole">
+    <h3 id="head" id="head">Digit Recognization</h3>
+    <h4>Koi sa bhi digit ke photo de ek niche</h4>
+    <form action="/image" method="post" enctype="multipart/form-data">
+        <input type="file" name="take_image" accept=".jpg , .jpeg,.png" >
+        <button type="submit">Predict</button>
+        {% if pred %}
+           <h3 id="pred">Lagta hya ki tune syadd likha :<i> {{pred}} </i></h3>
+        {% endif %}
+    </form>
+    </div>
+</body>
+<script></script>
+</html>

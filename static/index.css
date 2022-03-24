@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#whole{margin-top: 20vh;
+    background-color: #202e83;
+    font-family: 'Shadows Into Light', cursive;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-top-left-radius: 135px;
+border-bottom-right-radius: 135px;
+}
+#head{
+    font-size: 38px;
+    display: inline-block;
+    background-color: black;
+    color: cyan;
+    padding: 18px;
+    border-radius: 37px;
+}
+h4{
+    margin-top: -11px;
+    font-size: 23px;
+    border: 2px solid cyan;
+    color: white;
+    border-radius: 37px;
+    padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin-bottom: 24px;
+    font-size: 20px;
+    width: 255px;
+    color: white;
+}
+button{
+    font-size: 20px;
+    background-color: black;
+    color: cyan;
+    border-radius: 23px;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    cursor: pointer;
+}
+#pred{
+    color: crimson;
+    font-size: 28px;
+}
