@@ -8,12 +8,10 @@ Original file is located at
 """
 
 # Commented out IPython magic to ensure Python compatibility.
-import tensorflow as tf
 from tensorflow import keras
 import matplotlib.pyplot as plt
 # %matplotlib inline
 import numpy as np
-import pickle
 
 (x_train,y_train),(x_test,y_test)=keras.datasets.mnist.load_data();
 

@@ -1,10 +1,5 @@
-from flask import Flask,request, url_for, redirect, render_template
+from flask import Flask,request, render_template
 import os
-import flask
-import pickle
-import matplotlib.image as img
-import numpy as np
-import tensorflow as tf
 from keras.preprocessing import image
 
 import digit_recognition as dj
