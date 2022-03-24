@@ -19,7 +19,7 @@ def prediction(img_path):
     p=dj.predict_digit(i)
     return p
 
-@app.route('/',methods=['GET'])
+@app.route('/')
 def hello_world():
     return render_template("index.html")
 
