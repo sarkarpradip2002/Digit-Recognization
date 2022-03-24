@@ -1,3 +1,4 @@
+from crypt import methods
 from flask import Flask,request, render_template
 import os
 from keras.preprocessing import image
@@ -18,7 +19,7 @@ def prediction(img_path):
     p=dj.predict_digit(i)
     return p
 
-@app.route('/')
+@app.route('/',methods=['GET'])
 def hello_world():
     return render_template("index.html")
 
